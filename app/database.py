@@ -23,6 +23,11 @@ def get_db():
     finally:
         db.close()
 
+# database: fastapi_ab2x
+# password: 8ACdJkK5CQQM8zDf1PHojPi0j89HnXQp
+# internal database url: postgresql://fastapiuser:8ACdJkK5CQQM8zDf1PHojPi0j89HnXQp@dpg-d69087o6fj8s73cavho0-a/fastapi_ab2x
+#external database url:  postgresql://fastapiuser:8ACdJkK5CQQM8zDf1PHojPi0j89HnXQp@dpg-d69087o6fj8s73cavho0-a.oregon-postgres.render.com/fastapi_ab2x
+# postqresql command: PGPASSWORD=8ACdJkK5CQQM8zDf1PHojPi0j89HnXQp psql -h dpg-d69087o6fj8s73cavho0-a.oregon-postgres.render.com -U fastapiuser fastapi_ab2x
 # while True:
 
 #   try:

@@ -1,4 +1,4 @@
-from fastapi import FastAPI  #Response, status, HTTPException, Depends
+from fastapi import FastAPI   #Response, status, HTTPException, Depends
 from . import models         # schemas, utils
 from .database import engine   # get_db
 from .routers import post, user, auth, vote
@@ -29,7 +29,7 @@ app.include_router(vote.router)
 
 @app.get("/")
 def root():
-    return {"message": "Hell Yeahhhh"}
+    return {"message": "Oh Noooo"}
 
 # @app.get("/sqlalchemy")
 # def test_posts(db: Session = Depends(get_db)):

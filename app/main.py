@@ -3,7 +3,7 @@ from . import models         # schemas, utils
 from .database import engine   # get_db
 from .routers import post, user, auth, vote
 from .config import settings
-models.Base.metadata.create_all(bind=engine)
+# models.Base.metadata.create_all(bind=engine)
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
